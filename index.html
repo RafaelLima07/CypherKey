@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="src/assets/imagens/icone-site.png" type="image/x-icon">
+
+    <title>CypherKey</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Raleway&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/main-content.css">
+    <link rel="stylesheet" href="src/css/media-queries.css">
+</head>
+
+<body>
+    <header>
+        <h1>CypherKey</h1>
+    </header>
+
+    <main class="conteudo">
+        <section class="conteudo_campos">
+            <div class="conteudo_campos_textos">
+                <p><textarea placeholder="Escreva uma mensagem" id="texto"></textarea></p>
+            </div>
+
+            <div class="conteudo_campos_botoes">
+                <button type="button" id="criptografar" onclick="criptografar_Mensagem()">Criptografar</button>
+                <button type="button" id="descriptografar" onclick="descriptografar_Mensagem()">Descriptografar</button>
+            </div>
+        </section>
+
+        <aside class="conteudo_direito">
+            <div class="conteudo_direito_texto">
+                <p><textarea placeholder="Copie uma mensagem criptografada ou descriptografada" id="texto2"></textarea>
+                </p>
+            </div>
+
+            <div class="conteudo_direito_botoes">
+                <button type="button" id="msg_Copiar">Copiar</button>
+            </div>
+        </aside>
+    </main>
+
+    <script src="src/js/app.js"></script>
+</body>
+
+</html>

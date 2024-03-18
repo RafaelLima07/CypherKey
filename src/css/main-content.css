@@ -1,0 +1,150 @@
+:root {
+    --cor-primaria: #0D0C0B;
+    --cor-secundaria: #262523;
+    --cor-terciaria: #07D9D9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--cor-primaria);
+}
+
+h1 {
+    color: var(--cor-terciaria);
+    font-family: 'Raleway', sans-serif;
+    font-size: 4rem;
+    margin: 1rem;
+    padding: 1.5rem;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 2rem;
+}
+
+.conteudo_campos_textos {
+    width: 500px;
+    height: 250px;
+    background-color: var(--cor-secundaria);
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.473);
+}
+
+.conteudo_campos_textos p {
+    padding: 0.8rem;
+}
+
+.conteudo_campos_textos p textarea {
+    width: 470px;
+    height: 218px;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-terciaria);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.2rem;
+    text-align: justify;
+    border: none;
+    resize: none;
+    overflow-y: hidden;
+    outline: none;
+}
+
+::placeholder {
+    color: var(--cor-terciaria);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.conteudo_campos_botoes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteudo_campos_botoes button {
+    width: 220px;
+    height: 40px;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-terciaria);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 4rem;
+    border-radius: 25px;
+    border: 0.2rem solid var(--cor-terciaria);
+    cursor: pointer;
+    transition-property: background-color 0.3s;
+    transition-duration: 0.5s;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.473);
+}
+
+.conteudo_campos_botoes button:hover {
+    background-color: var(--cor-terciaria);
+    color: var(--cor-secundaria);
+    border: 0.2rem solid var(--cor-secundaria);
+}
+
+.conteudo_direito_texto {
+    width: 500px;
+    height: 250px;
+    background-color: var(--cor-secundaria);
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.473);
+}
+
+.conteudo_direito_texto p {
+    padding: 0.8rem;
+}
+
+.conteudo_direito_texto p textarea {
+    width: 470px;
+    height: 218px;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-terciaria);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.2rem;
+    text-align: justify;
+    border: none;
+    resize: none;
+    overflow-y: hidden;
+    outline: none;
+}
+
+.conteudo_direito_botoes {
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo_direito_botoes button {
+    width: 220px;
+    height: 40px;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-terciaria);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 25px;
+    margin-top: 4rem;
+    border-radius: 25px;
+    border: 0.2rem solid var(--cor-terciaria);
+    transition-property: background-color 0.3s;
+    transition-duration: 0.5s;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.473);
+}
+
+.conteudo_direito_botoes button:hover {
+    background-color: var(--cor-terciaria);
+    color: var(--cor-secundaria);
+    border: 0.2rem solid var(--cor-secundaria);
+}
