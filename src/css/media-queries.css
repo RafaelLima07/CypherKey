@@ -1,4 +1,4 @@
-@media (max-width:1600px) {
+/*@media (max-width:1600px) {
     h1 {
         font-size: 3.5rem;
     }
@@ -34,21 +34,6 @@
         font-size: 1.4rem;
     }
 
-    .conteudo_direito {
-        width: 540px;
-    }
-
-    .conteudo_direito_texto {
-        width: 540px;
-        height: 220px;
-    }
-
-    .conteudo_direito_texto p textarea {
-        width: 510px;
-        height: 198px;
-        font-size: 1.3rem;
-    }
-
     .conteudo_direito_botoes {
         width: 540px;
     }
@@ -59,18 +44,11 @@
         font-size: 1.3rem;
         margin-top: 3rem;
     }
-}
+}*/
 
 @media (max-width:1192px) {
     h1 {
         font-size: 3.5rem;
-    }
-
-    .conteudo {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: row;
     }
 
     .conteudo_campos {
@@ -100,21 +78,6 @@
     }
 
     ::placeholder {
-        font-size: 1.2rem;
-    }
-
-    .conteudo_direito {
-        width: 470px;
-    }
-
-    .conteudo_direito_texto {
-        width: 470px;
-        height: 190px;
-    }
-
-    .conteudo_direito_texto p textarea {
-        width: 440px;
-        height: 168px;
         font-size: 1.2rem;
     }
 
@@ -135,13 +98,6 @@
         font-size: 3rem;
     }
 
-    .conteudo {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: row;
-    }
-
     .conteudo_campos {
         width: 420px;
     }
@@ -172,21 +128,6 @@
         font-size: 1.1rem;
     }
 
-    .conteudo_direito {
-        width: 420px;
-    }
-
-    .conteudo_direito_texto {
-        width: 420px;
-        height: 190px;
-    }
-
-    .conteudo_direito_texto p textarea {
-        width: 390px;
-        height: 168px;
-        font-size: 1.1rem;
-    }
-
     .conteudo_direito_botoes {
         width: 420px;
     }
@@ -202,13 +143,6 @@
 @media (min-width: 768px) and (max-width:1023px) {
     h1 {
         font-size: 3rem;
-    }
-
-    .conteudo {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: row;
     }
 
     .conteudo_campos {
@@ -238,21 +172,6 @@
     }
 
     ::placeholder {
-        font-size: 1rem;
-    }
-
-    .conteudo_direito {
-        width: 350px;
-    }
-
-    .conteudo_direito_texto {
-        width: 350px;
-        height: 180px;
-    }
-
-    .conteudo_direito_texto p textarea {
-        width: 320px;
-        height: 158px;
         font-size: 1rem;
     }
 
@@ -279,8 +198,6 @@
     .conteudo {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
     }
 
     .conteudo_campos {
@@ -310,21 +227,6 @@
     }
 
     ::placeholder {
-        font-size: 1rem;
-    }
-
-    .conteudo_direito {
-        width: 300px;
-    }
-
-    .conteudo_direito_texto {
-        width: 300px;
-        height: 120px;
-    }
-
-    .conteudo_direito_texto p textarea {
-        width: 270px;
-        height: 100px;
         font-size: 1rem;
     }
 
